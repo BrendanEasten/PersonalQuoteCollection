@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Pinstripe:ital@0;1&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="title">Brendan's Quotes Collection</h1>
+    </header>
+    <!-- Section: My Own Quotes -->
+    <section id="gallery">
+        <h2>Personal Favorite Quotes By Famous Authors</h2>
+        <br>
+        <div class="gallery-container">
+            <div class="quote-box">
+                <p>"We suffer more in imagination than in reality." – Lucius Annaeus Seneca</p>
+            </div>
+            <div class="quote-box">
+                <p>“You make the world a better place by making daily improvements to become the best version of yourself.” - Roy T. Bennett</p>
+            </div>
+            <div class="quote-box">
+                <p>"In the end, we only regret the chances we didn’t take." – Lewis Carroll</p>
+            </div>
+            <div class="quote-box">
+                <p>"Not all those who wander are lost." – J.R.R. Tolkien</p>
+            </div>
+            <div class="quote-box">
+                <p>"It is not the length of life, but the depth of life." – Ralph Waldo Emerson</p>
+            </div>
+            <div class="quote-box">
+                <p>"Shoot for the moon. Even if you miss, you’ll land among the stars." – Les Brown</p>
+            </div>
+            <div class="quote-box">
+                <p>"The only way to do great work is to love what you do." – Steve Jobs</p>
+            </div>
+            <div class="quote-box">
+                <p>"Be yourself; everyone else is already taken." – Oscar Wilde</p>
+            </div>
+        </div>
+    </section>
+        <!-- Section: Pinterest Favorite Quotes -->
+        <section id="pinterest-favorites">
+            <h2>Favorite Pinterest Quote Cards</h2>
+            <div class="pinterest-gallery">
+                <!-- Pinterest embed quotes -->.
+                 
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=3659243438136730" height="713" width="345" frameborder="0" scrolling="no" ></iframe>                
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=1048846200714814464" height="713" width="345" frameborder="0" scrolling="no" ></iframe>          
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=18999629671383410" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=42362052736666691" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=13933080091505043" height="714" width="345" frameborder="0" scrolling="no" ></iframe>
+  </div>
+        </section>
+        <br>
+        <br>
+        <h2>Choose Which type of Image Quotes You Would Like To View!</h2>
+        <section id="filters">
+            <button data-filter="all">All Quotes</button>
+            <button data-filter="inspirational">Inspirational Quotes</button>
+            <button data-filter="edgy">Edgy Quotes</button>
+            <button data-filter="love">Love Quotes</button>
+        </section>
+    <br>
+    <br>
+
+        <section class="quote-gallery" id="gallery">
+            <div class="photo" data-category="inspirational">
+                <img src="photos/2a715784fb5d39ad41000abf9e1de583.jpg" alt="Nature Photo 1">
+            </div>
+            <div class="photo" data-category="love">
+                <img src="photos/3e247d557672353791454be03552239c.jpg" alt="Nature Photo 1">
+            </div>
+        </div>
+        <div class="photo" data-category="love">
+            <img src="photos/5ae2ca599353e2b6f120d125e944dd1f.jpg" alt="Nature Photo 1">
+        </div>
+        <div class="photo" data-category="inspirational">
+            <img src="photos/6ebe35fd421ee64cfed555f00dcee0c4.jpg" alt="Nature Photo 1">
+        </div>
+        <div class="photo" data-category="inspirational">
+            <img src="photos/7d65bbdb8e45629d16b69df0baf95ced.jpg" alt="Nature Photo 1">
+        </div>
+        <div class="photo" data-category="edgy">
+            <img src="photos/d14e44df871c2ecffedb035e2649685e.jpg" alt="Nature Photo 1">
+        </div>
+            <div class="photo" data-category="inspirational">
+                <img src="photos/c69a239f7afd97d018a51831dd53d14c.jpg" alt="Nature Photo 1">
+            </div>
+            <div class="photo" data-category="edgy">
+                <img src="photos/777f1891857675af505e9af53f3eaeb5.jpg" alt="City Photo 1">
+            </div>
+            <div class="photo" data-category="love">
+                <img src="photos/2d6bb25dacb478923cc93b13d3700e89.jpg" alt="Wildlife Photo 1">
+            </div>
+            <div class="photo" data-category="love">
+                <img src="photos/ef40caefce8286d685e4e01cc1d64e99.jpg" alt="Nature Photo 2">
+            </div>
+            <div class="photo" data-category="edgy">
+                <img src="photos/8b5e4f74ab73b7243299da943e7bdadd.jpg" alt="Wildlife Photo 2">
+            </div>
+            <div class="photo" data-category="edgy">
+                <img src="photos/efbee30d4073744b95317226cdcfb9b3.jpg" alt="Wildlife Photo 2">
+            </div>
+        </section>
+          <!-- Lightbox -->
+    <div id="lightbox" class="hidden">
+        <span id="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Large view">
+    </div>
+    <!-- JavaScript for Lightbox -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
